@@ -7,20 +7,14 @@ body {
 }
 
 a {
-    color: darkred;
+    color: #161;
     text-decoration: none;
 }
 
 /* HEADER */
 
 header {
-    background: black;
-    color: white;
     padding: 1em 2em;
-}
-
-header a {
-    color: white;
 }
 
 header {
@@ -90,7 +84,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: #161;
     min-height: 50vh;
     color: white;
 }
@@ -98,6 +92,7 @@ section {
 
 .hero h2 {
     font-size: 6em;
+    font-family: 'Knewave', cursive;
     text-transform: uppercase;
     margin: 0 auto;
 }
@@ -107,7 +102,14 @@ section {
     margin: 1em auto;
 }
 
-/* Lists */
+.page-home .hero {
+    background-image: url('https://picsum.photos/id/127/1600/800');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* LISTS */
+
 .lists {
     max-width: 1000px;
     margin: 0 auto;
@@ -120,4 +122,28 @@ section {
     .lists {
         grid-template-columns: 1fr 1fr;
     }
+}
+
+/* SUB PAGES */
+
+.page-sub .hero {
+    min-height: 30vh;
+}
+
+/* BLOG */
+
+.blog-archives {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
