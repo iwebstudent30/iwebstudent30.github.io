@@ -148,3 +148,13 @@ section {
     opacity: .5;
     font-size: .8em;
 }
+
+/* UI DESIGNS SECTION */
+
+.ui-designs {
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 200px;
+}
