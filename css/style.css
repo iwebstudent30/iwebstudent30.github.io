@@ -149,12 +149,12 @@ section {
     font-size: .8em;
 }
 
-/* UI DESIGNS SECTION */
+/* UI GALLERY */
 
 .ui-designs {
     text-align: center;
 }
 
 .ui-designs img {
-    max-width: 200px;
+    max-width: 100px;
 }
